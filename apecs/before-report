@@ -1,0 +1,50 @@
+Build profile: -w ghc-9.6.7 -O1
+In order, the following will be built (use -v for more details):
+ - apecs-0.9.6 (bench:apecs-bench) (file bench/Main.hs changed)
+Preprocessing benchmark 'apecs-bench' for apecs-0.9.6...
+Building benchmark 'apecs-bench' for apecs-0.9.6...
+[1 of 1] Compiling Main             ( bench/Main.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench-tmp/Main.o ) [Source file changed]
+[2 of 2] Linking /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench [Objects changed]
+Running 1 benchmarks...
+Benchmark apecs-bench: RUNNING...
+benchmarking PosVel/init world
+time                 2.369 ns   (2.356 ns .. 2.386 ns)
+                     0.997 R²   (0.996 R² .. 0.999 R²)
+mean                 2.369 ns   (2.363 ns .. 2.381 ns)
+std dev              25.99 ps   (15.86 ps .. 40.99 ps)
+variance introduced by outliers: 13% (moderately inflated)
+
+benchmarking PosVel/init
+time                 5.695 ms   (5.635 ms .. 5.769 ms)
+                     0.999 R²   (0.998 R² .. 0.999 R²)
+mean                 5.882 ms   (5.834 ms .. 5.939 ms)
+std dev              154.1 μs   (129.0 μs .. 188.8 μs)
+
+benchmarking PosVel/step
+time                 2.405 s    (2.358 s .. 2.470 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.387 s    (2.373 s .. 2.399 s)
+std dev              14.46 ms   (6.092 ms .. 19.31 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CachedPosVel/init world
+time                 12.43 μs   (12.41 μs .. 12.45 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 12.42 μs   (12.41 μs .. 12.45 μs)
+std dev              54.34 ns   (36.09 ns .. 84.18 ns)
+
+benchmarking CachedPosVel/init
+time                 4.841 ms   (4.778 ms .. 4.918 ms)
+                     0.999 R²   (0.998 R² .. 0.999 R²)
+mean                 4.732 ms   (4.681 ms .. 4.771 ms)
+std dev              137.9 μs   (112.3 μs .. 167.5 μs)
+variance introduced by outliers: 13% (moderately inflated)
+
+benchmarking CachedPosVel/step
+time                 90.85 ms   (89.19 ms .. 92.44 ms)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 95.18 ms   (92.93 ms .. 103.3 ms)
+std dev              5.930 ms   (1.210 ms .. 9.588 ms)
+variance introduced by outliers: 20% (moderately inflated)
+
+Benchmark apecs-bench: FINISH
