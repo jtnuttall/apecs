@@ -1,0 +1,80 @@
+Resolving dependencies...
+Build profile: -w ghc-9.6.7 -O1
+In order, the following will be built (use -v for more details):
+ - apecs-0.9.6 (lib) (first run)
+ - apecs-0.9.6 (bench:apecs-bench) (first run)
+Configuring library for apecs-0.9.6...
+Preprocessing library for apecs-0.9.6...
+Building library for apecs-0.9.6...
+[ 1 of 13] Compiling Apecs.Core       ( src/Apecs/Core.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Core.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Core.dyn_o )
+[ 2 of 13] Compiling Apecs.Experimental.Children ( src/Apecs/Experimental/Children.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Children.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Children.dyn_o )
+[ 3 of 13] Compiling Apecs.Experimental.Components ( src/Apecs/Experimental/Components.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Components.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Components.dyn_o )
+[ 4 of 13] Compiling Apecs.Experimental.Util ( src/Apecs/Experimental/Util.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Util.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Util.dyn_o )
+
+src/Apecs/Experimental/Util.hs:12:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+12 | import Control.Applicative  (liftA2)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 5 of 13] Compiling Apecs.Stores     ( src/Apecs/Stores.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Stores.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Stores.dyn_o )
+[ 6 of 13] Compiling Apecs.THTuples   ( src/Apecs/THTuples.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/THTuples.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/THTuples.dyn_o )
+[ 7 of 13] Compiling Apecs.Components ( src/Apecs/Components.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Components.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Components.dyn_o )
+[ 8 of 13] Compiling Apecs.System     ( src/Apecs/System.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/System.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/System.dyn_o )
+[ 9 of 13] Compiling Apecs.Experimental.Stores ( src/Apecs/Experimental/Stores.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Stores.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Stores.dyn_o )
+[10 of 13] Compiling Apecs.Experimental.Reactive ( src/Apecs/Experimental/Reactive.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Reactive.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Reactive.dyn_o )
+[11 of 13] Compiling Apecs.Util       ( src/Apecs/Util.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Util.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Util.dyn_o )
+[12 of 13] Compiling Apecs.TH         ( src/Apecs/TH.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/TH.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/TH.dyn_o )
+[13 of 13] Compiling Apecs            ( src/Apecs.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs.dyn_o )
+Configuring benchmark 'apecs-bench' for apecs-0.9.6...
+Preprocessing benchmark 'apecs-bench' for apecs-0.9.6...
+Building benchmark 'apecs-bench' for apecs-0.9.6...
+
+on the commandline: warning: [-Wdeprecated-flags]
+    -funfolding-keeness-factor1000 is deprecated: -funfolding-keeness-factor is no longer respected as of GHC 9.0
+[1 of 1] Compiling Main             ( bench/Main.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench-tmp/Main.o )
+
+on the commandline: warning: [-Wdeprecated-flags]
+    -funfolding-keeness-factor1000 is deprecated: -funfolding-keeness-factor is no longer respected as of GHC 9.0
+[2 of 2] Linking /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench
+Running 1 benchmarks...
+Benchmark apecs-bench: RUNNING...
+benchmarking PosVel/init world
+time                 2.353 ns   (2.346 ns .. 2.360 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.349 ns   (2.348 ns .. 2.353 ns)
+std dev              7.560 ps   (3.287 ps .. 13.03 ps)
+
+benchmarking PosVel/init
+time                 5.624 ms   (5.597 ms .. 5.661 ms)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 5.640 ms   (5.612 ms .. 5.681 ms)
+std dev              109.9 μs   (76.64 μs .. 177.1 μs)
+
+benchmarking PosVel/step
+time                 2.299 s    (2.290 s .. 2.308 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.298 s    (2.297 s .. 2.300 s)
+std dev              1.666 ms   (776.5 μs .. 2.333 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CachedPosVel/init world
+time                 12.29 μs   (12.29 μs .. 12.29 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 12.29 μs   (12.29 μs .. 12.30 μs)
+std dev              22.32 ns   (12.25 ns .. 40.26 ns)
+
+benchmarking CachedPosVel/init
+time                 4.493 ms   (4.476 ms .. 4.514 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 4.514 ms   (4.498 ms .. 4.543 ms)
+std dev              67.38 μs   (45.26 μs .. 115.7 μs)
+
+benchmarking CachedPosVel/step
+time                 91.49 ms   (91.23 ms .. 91.74 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 91.78 ms   (91.60 ms .. 92.23 ms)
+std dev              454.2 μs   (189.2 μs .. 686.3 μs)
+
+Benchmark apecs-bench: FINISH

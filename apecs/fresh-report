@@ -1,0 +1,130 @@
+Resolving dependencies...
+Build profile: -w ghc-9.6.7 -O1
+In order, the following will be built (use -v for more details):
+ - apecs-0.9.6 (lib) (first run)
+ - apecs-0.9.6 (bench:apecs-bench) (first run)
+Configuring library for apecs-0.9.6...
+Preprocessing library for apecs-0.9.6...
+Building library for apecs-0.9.6...
+[ 1 of 13] Compiling Apecs.Core       ( src/Apecs/Core.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Core.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Core.dyn_o )
+[ 2 of 13] Compiling Apecs.Experimental.Children ( src/Apecs/Experimental/Children.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Children.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Children.dyn_o )
+[ 3 of 13] Compiling Apecs.Experimental.Components ( src/Apecs/Experimental/Components.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Components.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Components.dyn_o )
+[ 4 of 13] Compiling Apecs.Experimental.Util ( src/Apecs/Experimental/Util.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Util.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Util.dyn_o )
+
+src/Apecs/Experimental/Util.hs:12:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+12 | import Control.Applicative  (liftA2)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 5 of 13] Compiling Apecs.Stores     ( src/Apecs/Stores.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Stores.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Stores.dyn_o )
+[ 6 of 13] Compiling Apecs.THTuples   ( src/Apecs/THTuples.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/THTuples.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/THTuples.dyn_o )
+[ 7 of 13] Compiling Apecs.Components ( src/Apecs/Components.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Components.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Components.dyn_o )
+[ 8 of 13] Compiling Apecs.System     ( src/Apecs/System.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/System.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/System.dyn_o )
+[ 9 of 13] Compiling Apecs.Experimental.Stores ( src/Apecs/Experimental/Stores.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Stores.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Stores.dyn_o )
+[10 of 13] Compiling Apecs.Experimental.Reactive ( src/Apecs/Experimental/Reactive.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Reactive.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Experimental/Reactive.dyn_o )
+[11 of 13] Compiling Apecs.Util       ( src/Apecs/Util.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Util.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/Util.dyn_o )
+[12 of 13] Compiling Apecs.TH         ( src/Apecs/TH.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/TH.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs/TH.dyn_o )
+[13 of 13] Compiling Apecs            ( src/Apecs.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs.o, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/build/Apecs.dyn_o )
+Configuring benchmark 'apecs-bench' for apecs-0.9.6...
+Preprocessing benchmark 'apecs-bench' for apecs-0.9.6...
+Building benchmark 'apecs-bench' for apecs-0.9.6...
+[1 of 1] Compiling Main             ( bench/Main.hs, /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench-tmp/Main.o )
+[2 of 2] Linking /home/jeremy/distrobox/haskell/apecs/dist-newstyle/build/x86_64-linux/ghc-9.6.7/apecs-0.9.6/b/apecs-bench/build/apecs-bench/apecs-bench
+Running 1 benchmarks...
+Benchmark apecs-bench: RUNNING...
+benchmarking PosVel/init world
+time                 318.0 ns   (317.8 ns .. 318.1 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 318.2 ns   (318.2 ns .. 318.4 ns)
+std dev              338.1 ps   (199.9 ps .. 627.3 ps)
+
+benchmarking PosVel/init
+time                 1.716 ms   (1.707 ms .. 1.723 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.715 ms   (1.706 ms .. 1.724 ms)
+std dev              29.93 μs   (22.33 μs .. 39.63 μs)
+
+benchmarking PosVel/step
+time                 83.69 ms   (80.70 ms .. 85.32 ms)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 90.88 ms   (87.98 ms .. 94.12 ms)
+std dev              4.943 ms   (4.205 ms .. 5.565 ms)
+variance introduced by outliers: 18% (moderately inflated)
+
+benchmarking CachedPosVel/init world
+time                 17.23 μs   (17.21 μs .. 17.26 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 17.23 μs   (17.22 μs .. 17.25 μs)
+std dev              40.65 ns   (8.823 ns .. 71.66 ns)
+
+benchmarking CachedPosVel/init
+time                 1.927 ms   (1.918 ms .. 1.934 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.904 ms   (1.898 ms .. 1.915 ms)
+std dev              26.09 μs   (17.15 μs .. 44.82 μs)
+
+benchmarking CachedPosVel/step
+time                 80.93 ms   (77.40 ms .. 83.04 ms)
+                     0.998 R²   (0.994 R² .. 1.000 R²)
+mean                 89.88 ms   (86.17 ms .. 94.30 ms)
+std dev              6.720 ms   (5.199 ms .. 7.619 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking PreallocatedPosVel/init world
+time                 9.720 μs   (9.712 μs .. 9.726 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 9.716 μs   (9.697 μs .. 9.759 μs)
+std dev              95.10 ns   (48.99 ns .. 175.1 ns)
+
+benchmarking PreallocatedPosVel/init
+time                 926.9 μs   (926.0 μs .. 928.1 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 927.4 μs   (927.0 μs .. 928.1 μs)
+std dev              1.687 μs   (1.028 μs .. 3.013 μs)
+
+benchmarking PreallocatedPosVel/step
+time                 86.38 ms   (86.07 ms .. 86.82 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 86.96 ms   (86.67 ms .. 87.51 ms)
+std dev              688.7 μs   (319.4 μs .. 1.110 ms)
+
+benchmarking UPosVel/init world
+time                 319.2 ns   (318.7 ns .. 319.9 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 319.4 ns   (319.1 ns .. 319.8 ns)
+std dev              1.258 ns   (814.3 ps .. 2.133 ns)
+
+benchmarking UPosVel/init
+time                 1.386 ms   (1.381 ms .. 1.391 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.402 ms   (1.396 ms .. 1.410 ms)
+std dev              22.19 μs   (16.12 μs .. 31.01 μs)
+
+benchmarking UPosVel/step
+time                 59.04 ms   (58.59 ms .. 59.32 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 59.95 ms   (59.58 ms .. 60.47 ms)
+std dev              827.8 μs   (501.0 μs .. 1.124 ms)
+
+benchmarking SPosVel/init world
+time                 334.7 ns   (334.3 ns .. 335.2 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 334.5 ns   (334.3 ns .. 335.0 ns)
+std dev              964.5 ps   (499.6 ps .. 1.824 ns)
+
+benchmarking SPosVel/init
+time                 1.461 ms   (1.449 ms .. 1.479 ms)
+                     0.999 R²   (0.997 R² .. 0.999 R²)
+mean                 1.459 ms   (1.445 ms .. 1.477 ms)
+std dev              51.47 μs   (39.53 μs .. 68.40 μs)
+variance introduced by outliers: 23% (moderately inflated)
+
+benchmarking SPosVel/step
+time                 50.99 ms   (50.86 ms .. 51.12 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 51.33 ms   (51.16 ms .. 51.66 ms)
+std dev              430.7 μs   (151.4 μs .. 630.4 μs)
+
+Benchmark apecs-bench: FINISH
